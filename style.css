@@ -182,7 +182,10 @@ background: #FFF;
 }
 .banner{
     margin-top: 132px;
-    background-image: url('flower-shop-assignment/Flower\ Asset/Rectangle9.png');
+    background-image: url("flower-shop-assignment/Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    height: 449px;
+    padding-top: 122px;
 }
 .get-details{
     text-align: center;
