@@ -78,6 +78,7 @@ header::before
 .all-features{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 }
 .featured{
     width: 464px;
@@ -114,4 +115,89 @@ gap: 30px;
     font-size: 24px;
     text-decoration: underline;
     text-align: center;
+}
+.options{
+    margin-top: 132px;
+     width: 1440px;
+height: 220px; 
+border-radius: 8px;
+background: rgba(39, 39, 39, 0.05);
+
+    display: flex;
+    justify-content: space-around;
+}
+.option-info{
+    padding-bottom: 80px;
+}
+.hot-deals{
+     display: flex;
+    align-items: center; 
+    margin-top: 132px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+
+height: 620px;
+}
+.hot-info{
+    padding-left: 295px;
+   text-align: center;
+}
+.hot-button{
+    padding: 20px 20px 20px 20px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.hot-off{
+    color: #E55473;
+}
+
+.insta-flowers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 48px;
+}
+.insta-flower{
+    width: 342px;
+height: 396px;
+}
+
+.email-area{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
+}
+::placeholder{
+    font-size: 16px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+}
+.banner{
+    margin-top: 132px;
+    background-image: url('flower-shop-assignment/Flower\ Asset/Rectangle9.png');
+}
+.get-details{
+    text-align: center;
+}
+footer{
+    padding-top: 210px;
+    margin-top: 132px;
+    text-align: center;
+    background: #111010;
+    color: #FFF;
+height: 449px;
+}
+.footer-text{
+    color: #FFF;
+}
+.footer-last{
+    color: rgba(255, 255, 255, 0.40);
 }
